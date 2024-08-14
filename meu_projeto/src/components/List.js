@@ -8,6 +8,8 @@ function List() {
                 <Item marca="Ferrari" ano_lancamento={2015} />
                 <Item marca="Fiat" ano_lancamento={1990} />
                 <Item marca="Celta" ano_lancamento={2005} />
+
+                <Item />
             </ul>
         </>
     );
