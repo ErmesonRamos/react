@@ -1,11 +1,13 @@
-import Titulo from './components/Titulo';
-import List from './components/List';
+import Evento from "./components/Evento";
+import Form from "./components/Form";
 function App() {
   return (
     <div>
-      <Titulo nome="Ermeson" idade="17" profissao="Desenvolver Full-Stack"/>
-      <h1>Olá, Mundo</h1>
-      <List />
+      <h1>Testando Eventos</h1>
+      <Evento numero="1" />
+      <br/>
+      <Evento numero= "7" />
+      <Form />
     </div>
   );
 }
